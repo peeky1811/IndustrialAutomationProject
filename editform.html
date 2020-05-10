@@ -1,0 +1,14 @@
+
+<body>
+<?php
+$val=$_GET['id'];
+?>
+<form method = "POST" action="update.php">
+ID<input type="text" name="id" value=<?php echo $val;?>>
+<br>
+Name<input type="text" name="name">
+<br>
+Mark<input type="text" name="mark">
+<br>
+<input type="submit" name="UPDATE">
+</body>
